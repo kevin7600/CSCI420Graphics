@@ -1,0 +1,23 @@
+﻿Build started 11/13/2016 1:54:06 PM.
+     1>Project "C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\hw1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../external/glm /I../external/imageIO /I"../external/jpeg-9a-win32" /I"../external/glew-1.13.0/include" /I"../external/freeglut-3.0.0-win32/include" /I"../OpenGLHelper-starterCode" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D "SHADER_BASE_PATH=R\"(C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\../OpenGLHelper-starterCode/)\"" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Debug\\" /Fd"C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt hw1.cpp
+         hw1.cpp
+     1>hw1.cpp(89): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>hw1.cpp(90): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>hw1.cpp(91): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>hw1.cpp(248): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>hw1.cpp(439): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>hw1.cpp(443): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Bin\Debug\hw1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"../external/jpeg-9a-win32/Debug" /LIBPATH:"../external/glew-1.13.0/lib/Debug/Win32" /LIBPATH:"../external/freeglut-3.0.0-win32/lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Bin\Debug\hw1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Bin\Debug\hw1.lib" /MACHINE:X86 "C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Debug\imageIO.obj"
+         "C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Debug\basicPipelineProgram.obj"
+         "C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Debug\openGLMatrix.obj"
+         "C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Debug\pipelineProgram.obj"
+         "C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Debug\hw1.obj"
+         hw1.vcxproj -> C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\\Bin\Debug\hw1.exe
+     1>Done Building Project "C:\Users\tanke\Documents\Visual Studio 2013\Projects\assign1_coreOpenGL_starterCode\hw1-starterCode\hw1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01
